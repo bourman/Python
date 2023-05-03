@@ -25,3 +25,15 @@ with open(filename, "w") as file:
         else:
             for collective_noun in collective_nouns:
                 file.write(f"{animal} - {collective_noun}\n")
+               
+            
+#for my self:
+#line 2 import requests form wiki learning by youtube : https://www.youtube.com/watch?v=YY5skv756pc
+#line 3 import BeautifulSoup learning by youtube : https://www.youtube.com/watch?v=gRLHr664tXA
+#line 3 how to read in an HTML file and then to modify that file 
+#line 8 BeautifulSoup object called soup from the HTML content of the response object obtained from making a GET request
+#line 17 for row in rows loop python for find the row i need to this task
+#line 18 ("td") =  is an HTML tag used to define a cell in an HTML table
+#line 21 (", ") splits the text using a comma
+#line 21 cols[1] the text of the collective nouns for the animal in the first cell
+#line 21 create a list of collective nouns, which can be used later to output
